@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-11-30T18:47:36Z" name="Command line suite" finished-at="2019-11-30T18:49:42Z" duration-ms="125081">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:applitools.testrunner.RunCukesTest@a1153bc]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2019-11-30T18:47:36Z" name="Command line test" finished-at="2019-11-30T18:49:42Z" duration-ms="125081">
+      <class name="applitools.testrunner.RunCukesTest">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:applitools.testrunner.RunCukesTest@a1153bc]" started-at="2019-11-30T18:47:36Z" name="setUpClass" finished-at="2019-11-30T18:47:37Z" duration-ms="672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:applitools.testrunner.RunCukesTest@a1153bc]" started-at="2019-11-30T18:47:37Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-11-30T18:49:41Z" duration-ms="123457" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Visual AI Test Suite]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="writeExtentReport()[pri:0, instance:applitools.testrunner.RunCukesTest@a1153bc]" started-at="2019-11-30T18:49:41Z" name="writeExtentReport" finished-at="2019-11-30T18:49:41Z" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeExtentReport -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:applitools.testrunner.RunCukesTest@a1153bc]" started-at="2019-11-30T18:49:41Z" name="tearDownClass" finished-at="2019-11-30T18:49:42Z" duration-ms="649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- applitools.testrunner.RunCukesTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
