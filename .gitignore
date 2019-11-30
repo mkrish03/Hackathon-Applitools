@@ -1,20 +1,11 @@
 #IDE working files
-
-.settings
-
+.setting
 .project
-
 .classpath
 
-
-
 #Build directories
-
 target\
-
 test-output\
-
-
 
 *.log
 
