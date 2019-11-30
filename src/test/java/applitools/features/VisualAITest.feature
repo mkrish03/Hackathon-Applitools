@@ -1,7 +1,7 @@
 #Author: Krishna Kumar Mohan
 #Keywords Summary : Automation using Visual AI
 
-@VisualAI
+#@VisualAI
 Feature: Visual AI Test Suite
 
   @VisualAI

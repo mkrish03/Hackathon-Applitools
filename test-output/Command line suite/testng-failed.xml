@@ -6,7 +6,7 @@
       <class name="applitools.testrunner.RunCukesTest">
         <methods>
           <include name="setUpClass"/>
-          <include name="feature" invocation-numbers="0 1"/>
+          <include name="feature" invocation-numbers="0"/>
           <include name="writeExtentReport"/>
           <include name="tearDownClass"/>
         </methods>

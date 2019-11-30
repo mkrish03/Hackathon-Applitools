@@ -22,7 +22,7 @@ public class RunCukesTest extends AbstractTestNGCucumberTests {
 	 */
 	@AfterClass
 	public static void writeExtentReport() {
-		Reporter.loadXMLConfig(new File("ExtentReport.xml"));
+		Reporter.loadXMLConfig(new File("extentreport.xml"));
 	}
 
 }

@@ -7,7 +7,6 @@ import com.cucumber.listener.Reporter;
 /**
  * The Class AssertUtils is used to verify assertions
  * 
- * @version 1.0
  */
 public class AssertUtils {
 
