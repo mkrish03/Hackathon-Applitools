@@ -53,6 +53,6 @@ git clone <repo link>
 ````````````````````````````````````````
 import project to Eclipse
 
-Right-click on Test Runner under applitools.testrunner package
+Right-click on TestRunner.java under applitools.testrunner package
 
 Run As > TestNG test
