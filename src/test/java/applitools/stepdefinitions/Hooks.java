@@ -38,8 +38,11 @@ public class Hooks extends BaseUtils {
 		// Initialize the eyes SDK
 		eyes = new Eyes(runner);
 
+		// Update with API KEY
+		String API_KEY="";
 		// Set your personal Applitols API Key from your environment variables.
-		eyes.setApiKey(System.getenv("API_KEY"));
+		eyes.setApiKey(API_KEY);
+//		eyes.setApiKey(System.getenv("API_KEY"));
 
 		// set batch name
 		eyes.setBatch(batch);
